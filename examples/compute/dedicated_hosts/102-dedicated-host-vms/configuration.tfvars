@@ -1,13 +1,13 @@
 global_settings = {
   default_region = "region1"
   regions = {
-    region1 = "southeastasia"
+    region1 = "eastus"
   }
 }
 
 resource_groups = {
   dhg = {
-    name   = "dedicated-test"
+    name   = "dedicated-test1"
     region = "region1"
   }
 }

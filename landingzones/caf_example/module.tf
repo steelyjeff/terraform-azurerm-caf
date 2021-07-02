@@ -1,10 +1,10 @@
 module "example" {
   source = "../.."
 
-  azuread_apps                   = var.azuread_apps
-  azuread_groups                 = var.azuread_groups
-  azuread_roles                  = var.azuread_roles
-  azuread_users                  = var.azuread_users
+  #azuread_apps                   = var.azuread_apps
+  #azuread_groups                 = var.azuread_groups
+  #azuread_roles                  = var.azuread_roles
+  #azuread_users                  = var.azuread_users
   current_landingzone_key        = var.landingzone.key
   custom_role_definitions        = var.custom_role_definitions
   event_hub_auth_rules           = var.event_hub_auth_rules
@@ -72,8 +72,8 @@ module "example" {
     azure_container_registries = var.azure_container_registries
     bastion_hosts              = var.bastion_hosts
     container_groups           = var.container_groups
-    dedicated_host             = var.dedicated_host
-    dedicated_host_group       = var.dedicated_host_group 
+    dedicated_hosts            = var.dedicated_hosts
+    dedicated_host_groups      = var.dedicated_host_groups
     proximity_placement_groups = var.proximity_placement_groups
     virtual_machine_scale_sets = var.virtual_machine_scale_sets
     virtual_machines           = var.virtual_machines

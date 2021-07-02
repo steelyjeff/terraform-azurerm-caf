@@ -63,7 +63,7 @@ virtual_machines = {
     }
 
   }
-  example_vm2 = {
+  /*example_vm2 = {
     resource_group_key = "dhg"
     provision_vm_agent = true
 
@@ -122,7 +122,7 @@ virtual_machines = {
 
       }
     }
-  }
+  }*/
 }
 
 

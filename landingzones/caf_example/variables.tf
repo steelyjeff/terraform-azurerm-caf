@@ -508,10 +508,10 @@ variable "wvd_host_pools" {
 variable "lighthouse_definitions" {
   default = {}
 }
-variable "dedicated_host" {
+variable "dedicated_hosts" {
   default = {}
 }
-variable "dedicated_host_group" {
+variable "dedicated_host_groups" {
   default = {}
 }
 

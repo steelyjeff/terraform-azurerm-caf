@@ -30,7 +30,7 @@ virtual_machines = {
     virtual_machine_settings = {
       windows = {
         name           = "example_vm1"
-        size           = "Standard_D2S_v3"
+        size           = "Standard_DC2s_v2"
         admin_username = "adminuser"
 
         dedicated_host = {
